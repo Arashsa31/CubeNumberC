@@ -23,15 +23,12 @@ int main()
 	printf("How many cubes? ");
 	scanf_s("%i", &n);
 
-		//calculation
+	//calculation
 	while (counter <= n)
 	{
 		tempCount = counter * counter * counter;
 		printf("%i cubed is %i\n", counter, tempCount);
 		counter++;
 	}
-
-	//output
-
 	return 0;
 }
